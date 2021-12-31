@@ -31,6 +31,17 @@ const Footer = () => {
               </Link>
             </h1>
             <h1 className="py-2 text-xl">
+              <Link href="rewards">
+                <a
+                  // href="{props.Nav}"
+                  // style={{ textDecoration: "none" }}
+                  target="_blank"
+                >
+                  Rewards
+                </a>
+              </Link>
+            </h1>
+            <h1 className="py-2 text-xl">
               <a
                 href="https://pages.microdegree.work/termsnconditions.html"
                 style={{ textDecoration: "none" }}
