@@ -18,7 +18,7 @@ function rewards() {
               type="text"
               placeholder="Referral ID"
             />
-            <i class="fa fa-copy"></i>
+
             <div>
               <button className={rewardsStyles.button} type="submit">
                 Signin for Referral ID

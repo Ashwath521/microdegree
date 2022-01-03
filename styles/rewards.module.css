@@ -175,3 +175,110 @@
     margin-left: 18rem;
     margin-top: 2rem;
 }
+
+@media(max-width:900px) {
+    .main {
+        display: block;
+        margin-left: 8rem
+    }
+
+    .heading {
+        width: 60%;
+    }
+
+    .button {
+        width: 400px;
+    }
+
+    .text {
+        width: 400px;
+    }
+
+    .rewardsh1 {
+        width: 80%;
+        margin-left: 8rem;
+    }
+
+    .rewardsdiv1 {
+        width: 180px;
+        height: 150px;
+        margin-left: 12rem;
+    }
+
+    .rewardsdiv1 p {
+        font-size: 1rem
+    }
+
+    .rewardsdiv2 {
+        width: 180px;
+        height: 150px;
+    }
+
+    .rewardsdiv2 p {
+        font-size: 1rem
+    }
+
+    .giftmain {
+        display: block;
+    }
+
+    .worksmainimg {
+        width: 60%;
+    }
+}
+
+@media(max-width:450px) {
+    .main {
+        display: block;
+        margin-left: 0rem;
+    }
+
+    .heading {
+        width: 50%;
+        font-size: 1rem;
+    }
+
+    .button {
+        width: 100%;
+    }
+
+    .text {
+        width: 100%
+    }
+
+    .rewardsh1 {
+        width: 60%;
+        text-align: center;
+        /* margin-left: 4rem; */
+        font-size: 1.5rem
+    }
+
+    .rewardsdiv1 {
+        width: 180px;
+        height: 150px;
+        /* margin-left: 8rem; */
+    }
+
+    .rewardsdiv1 p {
+        font-size: 1rem
+    }
+
+    .rewardsdiv2 {
+        width: 180px;
+        height: 150px;
+    }
+
+    .rewardsdiv2 p {
+        font-size: 1rem
+    }
+
+    .giftmain {
+        display: block;
+    }
+
+    .worksmainimg {
+        width: 80%;
+        margin-left: 4rem;
+        margin-top: 2rem;
+    }
+}
